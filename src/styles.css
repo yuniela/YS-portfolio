@@ -1,0 +1,109 @@
+li{
+    display:inline;
+    padding: 0px 20px;
+}
+
+div img{
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+div.devname{
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 5px;
+    transition: all 0.15s linear;  
+}
+
+div.devname:hover{
+    cursor: pointer;
+    will-change: transform;
+}
+
+div.menu-choices {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 5px;
+    transition: all 0.15s linear;  
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.letters{
+    font-size: 25px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.bigicon {
+    color:dimgray;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.linkedin{
+    color: #0A66C2 !important;
+}
+
+.github{
+    color: #333333 !important;
+}
+
+.phone{
+    color: #6CC644 !important;
+}
+
+.formulario{
+    float: right;
+    margin-top: 0px;
+}
+
+.dataContact{
+    align-items: center;
+    float:inline-end;
+    margin: top 75%;
+    padding-top: 54%;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.wrapper {
+    -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: row-reverse nowrap;
+      -ms-flex-flow: row-reverse nowrap;
+          flex-flow: row-reverse nowrap;
+  width: 600px;
+} 
+
+.wrapper-text {
+    -webkit-box-align: start;
+  -webkit-align-items: start;
+      -ms-flex-align: start;
+          align-items: start;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: row-reverse nowrap;
+      -ms-flex-flow: row-reverse nowrap;
+          flex-flow: row-reverse nowrap;
+  width: 600px;
+}
